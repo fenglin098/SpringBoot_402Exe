@@ -13,7 +13,7 @@
         <th>Due Date</th>
         <th>Priority</th>
     </tr>
-    <tr th:each="task : ${courses}">
+    <tr th:each="task : ${tasks}">
         <td th:text="${task.name}"></td>
         <td th:text="${task.date}"></td>
         <td th:text="${task.priority}"></td>
