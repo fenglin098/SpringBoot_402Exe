@@ -53,5 +53,9 @@ public class HomeController {
         taskRepository.deleteById(id);
         return "redirect:/";
     }
+    @RequestMapping("/login")
+    public String login(){
+        return "login";
+    }
 
 }
